@@ -1,0 +1,234 @@
+nohup: ignoring input
+INFO:     Started server process [2169372]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+[SCHEDULER] SLA reminder scheduler started
+[SCHEDULER] SLA reminder scheduler started
+INFO:     127.0.0.1:36558 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36568 - "DELETE /api/contracts/2 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/3 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:51180 - "GET /api/contracts/3/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "DELETE /api/contracts/3 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:56389 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts/4 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57433 - "OPTIONS /api/contracts/4/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/4 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57433 - "GET /api/contracts/4/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "DELETE /api/contracts/4 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:56389 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts/5 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:55368 - "OPTIONS /api/contracts/5/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/5 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:55368 - "GET /api/contracts/5/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "DELETE /api/contracts/5 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:56389 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts/6 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "OPTIONS /api/contracts/6/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/6 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "GET /api/contracts/6/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "DELETE /api/contracts/6 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:56389 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "OPTIONS /api/contracts/7 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "OPTIONS /api/contracts/7/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56389 - "GET /api/contracts/7/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "GET /api/contracts/7 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "DELETE /api/contracts/7 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57385 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:57385 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:54543 - "OPTIONS /api/contracts/8 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57023 - "OPTIONS /api/contracts/8/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:54543 - "GET /api/contracts/8/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57023 - "GET /api/contracts/8 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57023 - "OPTIONS /api/contracts/8/status HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57023 - "PATCH /api/contracts/8/status HTTP/1.1" 200 OK
+INFO:     172.16.210.28:57023 - "GET /api/contracts/8/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:49390 - "DELETE /api/contracts/8 HTTP/1.1" 400 Bad Request
+INFO:     172.16.210.28:50008 - "PATCH /api/contracts/8/status HTTP/1.1" 200 OK
+INFO:     172.16.210.28:50008 - "GET /api/contracts/8/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:50008 - "DELETE /api/contracts/8 HTTP/1.1" 400 Bad Request
+INFO:     172.16.210.28:52331 - "PATCH /api/contracts/8/status HTTP/1.1" 200 OK
+INFO:     172.16.210.28:52331 - "GET /api/contracts/8/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:53127 - "DELETE /api/contracts/8 HTTP/1.1" 400 Bad Request
+INFO:     172.16.210.28:53127 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:53127 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.16.210.28:53127 - "OPTIONS /api/contracts/9 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56034 - "OPTIONS /api/contracts/9/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:53127 - "GET /api/contracts/9 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:56034 - "GET /api/contracts/9/activities HTTP/1.1" 200 OK
+INFO:     172.16.210.28:52513 - "DELETE /api/contracts/9 HTTP/1.1" 200 OK
+INFO:     172.16.210.28:52513 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.16.210.28:52513 - "GET /api/contracts/ HTTP/1.1" 200 OK
+[SLA SCHEDULER] Running check at 2026-02-19T02:00:00.002081
+[SLA SCHEDULER] Checked 0 active contracts
+[SLA SCHEDULER] Running check at 2026-02-19T03:00:00.003270
+[SLA SCHEDULER] Checked 0 active contracts
+[SLA SCHEDULER] Running check at 2026-02-19T04:00:00.003342
+[SLA SCHEDULER] Checked 0 active contracts
+[SLA SCHEDULER] Running check at 2026-02-19T05:00:00.002103
+[SLA SCHEDULER] Checked 0 active contracts
+INFO:     172.29.25.166:55991 - "OPTIONS /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51953 - "OPTIONS /api/contracts?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:55991 - "GET /api/contracts?limit=5 HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:55991 - "OPTIONS /api/contracts/?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51953 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51953 - "GET /api/contracts/?limit=5 HTTP/1.1" 401 Unauthorized
+INFO:     172.29.25.166:61094 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     172.29.25.166:54051 - "GET /api/contracts?limit=5 HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:61094 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:54051 - "GET /api/contracts/?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50208 - "OPTIONS /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51890 - "OPTIONS /api/contracts/1/activities HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51890 - "GET /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50208 - "GET /api/contracts/1/activities HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50208 - "OPTIONS /api/editor/config/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50208 - "GET /api/editor/config/1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/hm.rahman/cmt/backend/app/api/routes/editor.py", line 83, in get_editor_config
+    config['token'] = sign_onlyoffice_token(config)
+  File "/home/hm.rahman/cmt/backend/app/api/routes/editor.py", line 22, in sign_onlyoffice_token
+    import jwt
+ModuleNotFoundError: No module named 'jwt'
+INFO:     172.29.25.166:49817 - "GET /api/contracts/1/activities HTTP/1.1" 200 OK
+INFO:     172.29.25.166:51890 - "GET /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:49817 - "OPTIONS /api/contracts HTTP/1.1" 200 OK
+INFO:     172.29.25.166:49817 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:49817 - "OPTIONS /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.29.25.166:49817 - "GET /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.29.25.166:61982 - "OPTIONS /api/contracts?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50438 - "OPTIONS /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50438 - "GET /api/contracts?limit=5 HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:61982 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50438 - "OPTIONS /api/contracts/?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:50438 - "GET /api/contracts/?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:65271 - "GET /api/contracts?limit=5 HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:51551 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     172.29.25.166:65271 - "GET /api/contracts/?limit=5 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:63432 - "OPTIONS /api/contracts HTTP/1.1" 200 OK
+INFO:     172.29.25.166:63432 - "GET /api/contracts HTTP/1.1" 307 Temporary Redirect
+INFO:     172.29.25.166:63432 - "OPTIONS /api/contracts/ HTTP/1.1" 200 OK
+INFO:     172.29.25.166:63432 - "GET /api/contracts/ HTTP/1.1" 200 OK
+[SLA SCHEDULER] Running check at 2026-02-19T06:00:00.001793
+[SLA SCHEDULER] Checked 0 active contracts
+INFO:     172.29.25.166:54800 - "OPTIONS /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:58533 - "OPTIONS /api/contracts/1/activities HTTP/1.1" 200 OK
+INFO:     172.29.25.166:58533 - "GET /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:54800 - "GET /api/contracts/1/activities HTTP/1.1" 200 OK
+INFO:     172.29.25.166:61178 - "OPTIONS /api/editor/config/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:61178 - "GET /api/editor/config/1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/cors.py", line 148, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+  File "/home/hm.rahman/cmt/backend/venv/lib64/python3.9/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/hm.rahman/cmt/backend/app/api/routes/editor.py", line 83, in get_editor_config
+    config['token'] = sign_onlyoffice_token(config)
+  File "/home/hm.rahman/cmt/backend/app/api/routes/editor.py", line 22, in sign_onlyoffice_token
+    import jwt
+ModuleNotFoundError: No module named 'jwt'
+INFO:     172.29.25.166:51414 - "GET /api/contracts/1 HTTP/1.1" 200 OK
+INFO:     172.29.25.166:56651 - "GET /api/contracts/1/activities HTTP/1.1" 200 OK

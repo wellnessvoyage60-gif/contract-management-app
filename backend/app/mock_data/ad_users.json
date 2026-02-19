@@ -1,0 +1,52 @@
+[
+  {
+    "username": "john.doe",
+    "email": "john.doe@company.com",
+    "full_name": "John Doe",
+    "department": "Legal",
+    "designation": "Senior Legal Counsel",
+    "employee_id": "EMP001",
+    "password": "test123",
+    "manager_username": null
+  },
+  {
+    "username": "sarah.khan",
+    "email": "sarah.khan@company.com",
+    "full_name": "Sarah Khan",
+    "department": "Procurement",
+    "designation": "Procurement Manager",
+    "employee_id": "EMP002",
+    "password": "test123",
+    "manager_username": "john.doe"
+  },
+  {
+    "username": "ali.reza",
+    "email": "ali.reza@company.com",
+    "full_name": "Ali Reza",
+    "department": "Finance",
+    "designation": "Finance Director",
+    "employee_id": "EMP003",
+    "password": "test123",
+    "manager_username": "john.doe"
+  },
+  {
+    "username": "fatima.ahmed",
+    "email": "fatima.ahmed@company.com",
+    "full_name": "Fatima Ahmed",
+    "department": "Legal",
+    "designation": "Contract Specialist",
+    "employee_id": "EMP004",
+    "password": "test123",
+    "manager_username": "sarah.khan"
+  },
+  {
+    "username": "rafiq.mahmud",
+    "email": "rafiq.mahmud@company.com",
+    "full_name": "Rafiq Mahmud",
+    "department": "IT",
+    "designation": "IT Manager",
+    "employee_id": "EMP005",
+    "password": "test123",
+    "manager_username": "john.doe"
+  }
+]

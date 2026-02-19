@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  onlyoffice:
+    image: onlyoffice/documentserver:8.2
+    container_name: onlyoffice-docs
+    ports:
+      - "8080:80"
+    environment:
+      - JWT_ENABLED=true
+      - JWT_SECRET=MyContractAppSecret2026
+      - JWT_HEADER=Authorization
+      - JWT_IN_BODY=true
+    volumes:
+      - oo_data:/var/www/onlyoffice/Data
+      - oo_logs:/var/log/onlyoffice
+    restart: unless-stopped
+ 
+  mailhog:
+    image: mailhog/mailhog
+    container_name: mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    restart: unless-stopped
+ 
+volumes:
+  oo_data:
+  oo_logs:
